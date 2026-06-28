@@ -2,7 +2,8 @@
 
 using namespace std;
 
-//print the name "Rikesh" n times using recursion
+// print the name "Rikesh" n times using recursion
+
 int count = 0;
 
 void printNameFiveTimes(int i, int n)
