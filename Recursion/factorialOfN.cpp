@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+//Factorial of N using Recursion
 int factorial(int fact, int n)
 {
 
