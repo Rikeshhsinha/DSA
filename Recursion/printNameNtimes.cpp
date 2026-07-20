@@ -5,13 +5,13 @@ using namespace std;
 void printNameNTimes(int n)
 {
 
-  if(n<1){
-    return;
-  }
-  cout<<"Rikesh\n";
+    if (n < 1)
+    {
+        return;
+    }
+    cout << "Rikesh\n";
 
-  printNameNTimes(n-1);
-
+    printNameNTimes(n - 1);
 }
 
 int main()
