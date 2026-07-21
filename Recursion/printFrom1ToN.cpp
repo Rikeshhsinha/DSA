@@ -18,7 +18,7 @@ int main()
 {
 
     int i, n;
-    cout << "Enter the number print upto :";
+    cout << "Enter the number print upto in reverse order:";
     cin >> n;
 
     printUptoN(1, n);
