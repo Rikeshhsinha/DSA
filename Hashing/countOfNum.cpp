@@ -28,16 +28,17 @@ int main(){
     }
 
     int q;
-    cout<<"Enter the total number declare :";
+    cout<<"Enter the total number of query's :";
     cin>>q;
 
     while(q--){
 
         int number;
-       
+        cout<<"Enter the number for query : ";
+
         cin>>number; 
         //fetch
-       cout<< hash[number];
+        cout<<"The "<< number << " appers in array " <<hash[number]<< " times." << endl;
 
     }
  
