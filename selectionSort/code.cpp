@@ -21,10 +21,7 @@ void selectionSort(vector<int> &num, int n)
 
             
         }
-        int temp = num[min];
-
-            num[min] = num[i];
-            num[i] = temp;
+       swap(num[min], num[i]);
     }
 }
 
@@ -47,6 +44,8 @@ int main()
     }
 
     selectionSort(num, n);
+
+    cout << "After sorting the array is :";
 
     for (int i = 0; i < n; i++)
     {
